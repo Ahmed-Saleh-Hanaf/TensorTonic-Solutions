@@ -11,4 +11,4 @@ def mean_median_mode(x):
     median = np.median(x)
     freq = max(count.values())
     mode = np.min([k for k, v in count.items() if v == freq])
-    return mean, median, mode
+    return (mean, median, mode)
